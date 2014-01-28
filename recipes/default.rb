@@ -18,8 +18,13 @@ end
 
 
 # TODO: Remove this once the gem_hell cookbook is ready to roll
-g = chef_gem "fog" do
-  action :nothing
-end
+%w{
+  unf
+  fog
+}.each do |pkg|
+  g = chef_gem pkg do
+    action :nothing
+  end
 
-g.run_action(:install)
+  g.run_action(:install)
+end

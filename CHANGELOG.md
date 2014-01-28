@@ -1,3 +1,7 @@
+## 1.0.3
+
+* Install the 'unf' Gem.
+
 ## 1.0.2
 
 * Include the apt cookbook (to make sure update runs)
