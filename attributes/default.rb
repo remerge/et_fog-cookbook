@@ -1,2 +1,1 @@
-set['build_essential']['compiletime'] = true
-set['apt']['compiletime'] = true
+set['build-essential']['compile_time'] = true
