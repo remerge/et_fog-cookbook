@@ -1,3 +1,7 @@
+## 1.0.4
+
+* Give up on apt compile time and do the update ourselves--the cookbook is not actually handling it
+
 ## 1.0.3
 
 * Install the 'unf' Gem.
