@@ -9,6 +9,7 @@
 
 include_recipe 'build-essential'
 include_recipe 'apt'
+include_recipe 'git'
 
 execute 'apt-get update' do
   action  :nothing

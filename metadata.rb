@@ -8,3 +8,4 @@ version          '1.0.4'
 
 depends 'build-essential'
 depends 'apt'
+depends 'git', '~> 4.0'
