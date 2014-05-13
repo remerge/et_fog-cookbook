@@ -1,3 +1,7 @@
+## 1.0.5
+
+* Install Git, as nokogiri (and thus fog) depend upon it for building native extensions
+
 ## 1.0.4
 
 * Give up on apt compile time and do the update ourselves--the cookbook is not actually handling it
