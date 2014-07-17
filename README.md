@@ -1,13 +1,20 @@
 # et_fog cookbook
 
+Installs & configures the Fog Ruby library
+
 # Requirements
 
 # Usage
 
-# Attributes
+Include `et_fog::default` in your node’s run list.
 
 # Recipes
 
+## default
+
+1. Installs the necessary dependencies for the `fog` gem.
+2. Installs `fog` and `unf`, which helps `fog` play nicely with strings and AWS.
+
 # Author
 
-Author:: EverTrue, Inc. (<eric.herot@evertrue.com>)
+Author:: EverTrue, Inc. (<devops@evertrue.com>)
