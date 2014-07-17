@@ -1,3 +1,7 @@
+## 1.0.7
+
+* Clean up docs
+
 ## 1.0.6
 
 * Functionally identical to v1.0.6, just adds Stove publishing to ease shipping to Supermarket
