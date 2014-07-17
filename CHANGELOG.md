@@ -1,3 +1,7 @@
+## 1.0.6
+
+* Functionally identical to v1.0.6, just adds Stove publishing to ease shipping to Supermarket
+
 ## 1.0.5
 
 * Install Git, as nokogiri (and thus fog) depend upon it for building native extensions
