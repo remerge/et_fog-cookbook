@@ -1,3 +1,6 @@
+[![Cookbook Version](https://img.shields.io/cookbook/v/et_fog.svg?style=flat)](https://supermarket.getchef.com/cookbooks/et_fog)
+[![Build Status](https://travis-ci.org/evertrue/et_fog-cookbook.svg)](https://travis-ci.org/evertrue/et_fog-cookbook)
+
 # et_fog cookbook
 
 Installs & configures the Fog Ruby library
