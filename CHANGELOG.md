@@ -1,3 +1,9 @@
+## 1.1.0
+
+* Clean up Test Kitchen config
+* Clean up Berksfile
+* Add Travis CI testing
+
 ## 1.0.7
 
 * Clean up docs
