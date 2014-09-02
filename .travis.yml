@@ -7,8 +7,7 @@ before_install:
 - cat ~/.ssh/travis_ci_ec2.base64 | tr -d ' ' | base64 --decode > ~/.ssh/travis_ci_ec2.pem
 - mkdir ~/.chef
 - touch ~/.chef/knife.rb
-- chmod 600 ~/.chef/knife.rb
-- chmod 600 ~/.ssh/travis_ci_ec2.pem ~/.ssh/id_rsa
+- chmod 600 ~/.chef/knife.rb ~/.ssh/travis_ci_ec2.pem
 install:
 - bundle install --without local
 - bundle exec berks install
