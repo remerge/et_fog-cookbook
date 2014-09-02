@@ -32,10 +32,10 @@ end.run_action(:run)
 end
 
 # TODO: Remove this once the gem_hell cookbook is ready to roll
-%w{
+%w(
   unf
   fog
-}.each do |pkg|
+).each do |pkg|
   g = chef_gem pkg do
     action :nothing
   end
