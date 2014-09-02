@@ -7,6 +7,10 @@ Installs & configures the Fog Ruby library
 
 # Requirements
 
+* `build-essential`
+* `apt`
+* `git`
+
 # Usage
 
 Include `et_fog::default` in your node’s run list.
