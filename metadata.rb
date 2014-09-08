@@ -9,5 +9,5 @@ version          '1.1.0'
 supports 'ubuntu', '= 12.04'
 
 depends 'build-essential', '~> 2.0'
-depends 'apt'
+depends 'apt',             '~> 2.5'
 depends 'git', '~> 4.0'
