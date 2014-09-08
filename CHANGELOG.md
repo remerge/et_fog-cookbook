@@ -1,3 +1,9 @@
+## 1.1.1
+
+* Pin dependencies to avoid surprises
+* Ensure `apt-get update` runs before all else
+    - The `build-essential` cookbook was failing on new Ubuntu 12.04 instances
+
 ## 1.1.0
 
 * Clean up Test Kitchen config
