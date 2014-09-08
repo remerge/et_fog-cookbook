@@ -17,13 +17,13 @@
 # limitations under the License.
 #
 
-include_recipe 'build-essential'
-include_recipe 'apt'
-include_recipe 'git'
-
 execute 'apt-get update' do
   action  :nothing
 end.run_action(:run)
+
+include_recipe 'build-essential'
+include_recipe 'apt'
+include_recipe 'git'
 
 # Dependencies required by nokogiri (for fog)
 %w(libxslt-dev libxml2-dev).each do |pkg|
