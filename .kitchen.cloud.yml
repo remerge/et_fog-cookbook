@@ -18,7 +18,7 @@ provisioner:
 platforms:
   - name: ubuntu-12.04
     driver_config:
-      image_id: ami-36aa4d5e
+      image_id: ami-e002a788
       tags:
         Name: travis-ci-default-ubuntu-1204
         Env: public
