@@ -1,3 +1,8 @@
+## 1.1.2
+
+* Update ec2 ami
+* Eliminate resource cloning
+
 ## 1.1.1
 
 * Pin dependencies to avoid surprises
