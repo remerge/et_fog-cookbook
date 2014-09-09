@@ -17,12 +17,12 @@
 # limitations under the License.
 #
 
-execute 'apt-get update' do
-  action  :nothing
-end.run_action(:run)
+if platform_family?('debian')
+  include_recipe 'apt'
+  resources(execute: 'apt-get update').run_action(:run)
+end
 
 include_recipe 'build-essential'
-include_recipe 'apt'
 include_recipe 'git'
 
 # Dependencies required by nokogiri (for fog)
