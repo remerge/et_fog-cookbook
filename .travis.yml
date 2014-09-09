@@ -18,6 +18,7 @@ notifications:
     secure: NOfZLlBbYzXoGw6d4GIMdn/rkBfaVZo+gTNDmRTNLvysjEJrO0q9E95VFZnruM5S8bhacCfmKjy1zuraePqrrOg6qhBN22MzkIxk3yZx6SXIyQ/y0vJuqlFt8JF8Yd7xS8SZIsGuGJot4BCykZXbMfXDTb6g4DkOkWOWIsV0B0c=
 env:
   global:
+  - KITCHEN_LOG=debug
   - secure: bVz2fe6RdTkce4E/P5fwkntgkdMVeBlE2iCpSXf1/NFz6mzHRJq14z/kzZz124N6+JrY/1/1NwoZtoEaKnr+FUBdnBZ+zcYdwo+hHGUYjLJKD6zaPl8x/davvU7nHlxdUQCb2gZF9ZjVEN/FOpz93IpM4T1uaJTs8VEsPkFWOqI=
   - secure: dqpPzvvbq4pWqf9x8fwddnf0LuVHUPoOV7X4J245TpPX0IgqoEZt9nqO0+QpQFjXiFKyVMWcVHt2ExvJ+U6rTOdTfS3/5r7sPLX8C+FSYgcAFedA/GmoBV9YZf3dTvxaAvxHD6MdjGAwqAp7hHAtkHJJuzxzLmwqWCyi9ujOC6Y=
   - secure: GWa8e/ICPCEFUEwRSBtwGljbT8cpGLBlDgKXVf7FaZj8ZZXF7vG4yLapKpmvdLkRKurH054cqz26FNvDwQVwcdqb0MhrxH2+5Mavrp0HxukjbEWTYEA0VP52KjEJewQDafTPo0IxujtovFobvWUD+1bFMDvtigCbpaX7qm1BzTU=
