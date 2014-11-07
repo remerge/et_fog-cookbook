@@ -4,7 +4,7 @@ maintainer_email 'devops@evertrue.com'
 license          'Apache v2.0'
 description      'Installs/Configures the Fog ruby library'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '1.1.2'
+version          '1.1.3'
 
 supports 'ubuntu', '= 12.04'
 

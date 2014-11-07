@@ -1,3 +1,7 @@
+## 1.1.3
+
+* Add libghc-zlib-dev to list of pre-installed packages.
+
 ## 1.1.2
 
 * Update ec2 ami
