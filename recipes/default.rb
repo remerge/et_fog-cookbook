@@ -26,7 +26,7 @@ include_recipe 'build-essential'
 include_recipe 'git'
 
 # Dependencies required by nokogiri (for fog)
-%w(libxslt-dev libxml2-dev).each do |pkg|
+%w(libxslt-dev libxml2-dev libghc-zlib-dev).each do |pkg|
   c_pkg = package(pkg)
   c_pkg.run_action(:install)
 end
