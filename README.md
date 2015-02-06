@@ -3,7 +3,7 @@
 
 # et_fog cookbook
 
-Installs & configures the Fog Ruby library
+Installs & configures the Fog Ruby library as a Chef Gem. Use this cookbook if you want to use Fog as part of another cookbook.
 
 # Requirements
 
