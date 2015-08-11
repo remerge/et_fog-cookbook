@@ -1,3 +1,7 @@
+## 1.2.0
+
+* Add support for a version attribute
+
 ## 1.1.3
 
 * Add libghc-zlib-dev to list of pre-installed packages.
