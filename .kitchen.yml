@@ -6,7 +6,7 @@ driver:
     memory: 1536
 
 platforms:
-  - name: ubuntu-12.04
+  - name: ubuntu-14.04
 
 suites:
   - name: default
