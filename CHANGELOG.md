@@ -1,3 +1,7 @@
+## 1.2.1
+
+* Oops. Only Fog can have its version number set.
+
 ## 1.2.0
 
 * Add support for a version attribute
