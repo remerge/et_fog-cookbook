@@ -31,15 +31,13 @@ include_recipe 'git'
   c_pkg.run_action(:install)
 end
 
-# TODO: Remove this once the gem_hell cookbook is ready to roll
-%w(
-  unf
-  fog
-).each do |pkg|
-  g = chef_gem pkg do
-    action :nothing
-    version node['et_fog']['version']
-  end
+chef_gem 'unf' do
+  action :nothing
+end.run_action(:install)
 
-  g.run_action(:install)
-end
+# TODO: Remove this once the gem_hell cookbook is ready to roll
+
+chef_gem 'fog' do
+  action :nothing
+  version node['et_fog']['version']
+end.run_action(:install)
