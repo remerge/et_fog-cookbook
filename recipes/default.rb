@@ -38,6 +38,7 @@ end
 ).each do |pkg|
   g = chef_gem pkg do
     action :nothing
+    version node['et_fog']['version']
   end
 
   g.run_action(:install)
