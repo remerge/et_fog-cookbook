@@ -6,7 +6,7 @@ description      'Installs/Configures the Fog ruby library'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '1.2.1'
 
-supports 'ubuntu', '= 12.04'
+supports 'ubuntu', '= 14.04'
 
 depends 'build-essential', '~> 2.0'
 depends 'apt',             '~> 2.5'
