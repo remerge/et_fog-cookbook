@@ -32,12 +32,12 @@ include_recipe 'git'
 end
 
 chef_gem 'unf' do
-  action :nothing
-end.run_action(:install)
+  compile_time true
+end
 
 # TODO: Remove this once the gem_hell cookbook is ready to roll
 
 chef_gem 'fog' do
-  action :nothing
+  compile_time true
   version node['et_fog']['version']
-end.run_action(:install)
+end
