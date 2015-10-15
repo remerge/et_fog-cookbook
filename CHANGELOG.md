@@ -1,3 +1,7 @@
+## 1.2.2
+
+* Use compile_time property to make gems install at compile_time
+
 ## 1.2.1
 
 * Oops. Only Fog can have its version number set.
