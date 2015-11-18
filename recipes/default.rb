@@ -22,13 +22,7 @@ include_recipe 'build-essential'
 include_recipe 'git'
 
 # Dependencies required by nokogiri (for fog)
-if platform_family?('debian')
-  dependencies = %w(libxslt-dev libxml2-dev libghc-zlib-dev)
-elsif platform_family?('rhel')
-  dependencies = %w(libxslt-devel libxml2-devel)
-end
-
-dependencies.each do |pkg|
+node['et_fog']['dependencies'].each do |pkg|
   c_pkg = package(pkg)
   c_pkg.run_action(:install)
 end

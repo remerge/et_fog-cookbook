@@ -15,6 +15,8 @@ Installs & configures the Fog Ruby library as a Chef Gem. Use this cookbook if y
 
 Include `et_fog::default` in your node’s run list.
 
+If you need to customize the dependencies installed for nokogiri on your system, specify them in an array in `node['et_fog']['dependencies']` in a wrapper cookbook
+
 # Recipes
 
 ## default
