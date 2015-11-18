@@ -12,7 +12,7 @@ install:
 - bundle install --without local
 - bundle exec berks install
 script:
-- KITCHEN_LOG=debug bundle exec rake travis
+- bundle exec rake travis
 notifications:
   slack:
     secure: NOfZLlBbYzXoGw6d4GIMdn/rkBfaVZo+gTNDmRTNLvysjEJrO0q9E95VFZnruM5S8bhacCfmKjy1zuraePqrrOg6qhBN22MzkIxk3yZx6SXIyQ/y0vJuqlFt8JF8Yd7xS8SZIsGuGJot4BCykZXbMfXDTb6g4DkOkWOWIsV0B0c=
