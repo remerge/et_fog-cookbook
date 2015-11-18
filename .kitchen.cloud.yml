@@ -19,7 +19,7 @@ provisioner:
 
 platforms:
 - name: ubuntu-14.04
-  driver_config:
+  driver:
     image_id: ami-9883c6f2
     tags:
       Name: et_fog-default-ubuntu-1404
