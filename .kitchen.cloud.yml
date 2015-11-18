@@ -8,6 +8,9 @@ driver:
   security_group_ids: ['ci-testing']
   instance_type: c3.large
   interface: public
+  tags:
+    Env: public
+    Type: test
 
 provisioner:
   name: chef_zero
@@ -17,8 +20,7 @@ platforms:
     driver_config:
       image_id: ami-190e4b73
       tags:
-        Name: travis-ci-default-ubuntu-1204
-        Env: public
+        Name: et_fog-default-ubuntu-1204
 
 suites:
   - name: default
