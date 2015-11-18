@@ -25,7 +25,7 @@ include_recipe 'git'
 if platform_family?('debian')
   dependencies = %w(libxslt-dev libxml2-dev libghc-zlib-dev)
 elsif platform_family?('rhel')
-  dependencies = %w(libxslt-devel libxml2-devel ghc-zlib-devel)
+  dependencies = %w(libxslt-devel libxml2-devel)
 end
 
 dependencies.each do |pkg|
