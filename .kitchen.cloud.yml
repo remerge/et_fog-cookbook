@@ -23,6 +23,13 @@ platforms:
     image_id: ami-9883c6f2
     tags:
       Name: et_fog-default-ubuntu-1404
+- name: centos-7
+  driver:
+    image_id: ami-61bbf104
+    tags:
+      Name: et_fog-default-centos-7
+  transport:
+    username: centos
 
 suites:
   - name: default
