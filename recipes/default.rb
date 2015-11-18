@@ -17,11 +17,7 @@
 # limitations under the License.
 #
 
-if platform_family?('debian')
-  include_recipe 'apt'
-  resources(execute: 'apt-get update').run_action(:run)
-end
-
+include_recipe 'apt' if platform_family?('debian')
 include_recipe 'build-essential'
 include_recipe 'git'
 
