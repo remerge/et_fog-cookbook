@@ -1,3 +1,8 @@
+## 1.3.0
+
+* Add dependencies for nokogiri on CentOS/RHEL systems
+* Attribute-ize nokogiri dependencies to allow wrapper cookbooks more flexibility
+
 ## 1.2.2
 
 * Use compile_time property to make gems install at compile_time
