@@ -19,7 +19,6 @@
 
 include_recipe 'apt' if platform_family?('debian')
 include_recipe 'build-essential'
-include_recipe 'git'
 
 # Dependencies required by nokogiri (for fog)
 node['et_fog']['dependencies'].each do |pkg|

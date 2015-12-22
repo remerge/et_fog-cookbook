@@ -13,4 +13,3 @@ supports 'ubuntu', '= 14.04'
 
 depends 'build-essential', '~> 2.0'
 depends 'apt',             '~> 2.5'
-depends 'git', '~> 4.0'
