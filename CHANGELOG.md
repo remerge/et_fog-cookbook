@@ -1,3 +1,8 @@
+## 1.3.1
+
+* s/getchef.com/chef.io/
+* Remove superfluous dependency on git
+
 ## 1.3.0
 
 * Add dependencies for nokogiri on CentOS/RHEL systems
