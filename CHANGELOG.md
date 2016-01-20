@@ -1,3 +1,7 @@
+## 1.3.2
+
+* Add backwards compatibility for Chef < 12.1.0
+
 ## 1.3.1
 
 * s/getchef.com/chef.io/
