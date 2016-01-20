@@ -27,12 +27,12 @@ node['et_fog']['dependencies'].each do |pkg|
 end
 
 chef_gem 'unf' do
-  compile_time true
+  compile_time true if Chef::Resource::ChefGem.method_defined? :compile_time
 end
 
 # TODO: Remove this once the gem_hell cookbook is ready to roll
 
 chef_gem 'fog' do
-  compile_time true
+  compile_time true if Chef::Resource::ChefGem.method_defined? :compile_time
   version node['et_fog']['version']
 end
