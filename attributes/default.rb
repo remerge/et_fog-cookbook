@@ -1,4 +1,4 @@
-default['et_fog']['version'] = '1.32.0'
+default['et_fog']['version'] = '1.37.0'
 default['et_fog']['dependencies'] =
   if platform_family? 'debian'
     %w(libxslt-dev libxml2-dev libghc-zlib-dev)
