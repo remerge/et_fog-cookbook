@@ -26,8 +26,10 @@ node['et_fog']['dependencies'].each do |pkg|
   c_pkg.run_action(:install)
 end
 
-chef_gem 'unf' do
-  compile_time true if Chef::Resource::ChefGem.method_defined? :compile_time
+%w(unf rest-client).each do |gem_pkg|
+  chef_gem gem_pkg do
+    compile_time true if Chef::Resource::ChefGem.method_defined? :compile_time
+  end
 end
 
 # TODO: Remove this once the gem_hell cookbook is ready to roll
