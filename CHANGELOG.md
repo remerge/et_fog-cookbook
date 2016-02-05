@@ -1,3 +1,8 @@
+## 1.4.0
+
+* Bump Fog gem to 1.37.0
+* Add rest-client list of chef_gem dependencies
+
 ## 1.3.2
 
 * Add backwards compatibility for Chef < 12.1.0
