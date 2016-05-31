@@ -9,5 +9,5 @@ Encoding:
 LineLength:
   Max: 100
 
-SingleSpaceBeforeFirstArg:
+SpaceBeforeFirstArg:
   Enabled: false
