@@ -1,3 +1,8 @@
+## 2.0.0
+
+* Bump apt to ~> 3.0
+* Bump build-essential to ~> 4.0
+
 ## 1.4.0
 
 * Bump Fog gem to 1.37.0
