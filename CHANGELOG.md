@@ -1,3 +1,7 @@
+## 3.0.1
+
+* Relax version constraints for `apt` and `build-essential`
+
 ## 3.0.0
 
 * Bump apt to ~> 3.0
