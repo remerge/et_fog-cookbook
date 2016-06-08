@@ -1,16 +1,36 @@
 ---
 driver:
-  name: vagrant
-  customize:
-    cpus: 4
-    memory: 1536
+  name: ec2
+  require_chef_omnibus: 12.10.24
+  aws_ssh_key_id: <%= ENV['AWS_KEYPAIR_NAME'] %>
+  region: us-east-1
+  availability_zone: us-east-1b
+  security_group_ids: ['ci-testing']
+  instance_type: c3.large
+  interface: public
+  tags:
+    Env: public
+    Type: test
+
+transport:
+  ssh_key: <%= ENV['EC2_SSH_KEY_PATH'] %>
 
 provisioner:
   name: chef_zero
 
 platforms:
-  - name: ubuntu-14.04
-  - name: centos-7.1
+- name: ubuntu-14.04
+  driver:
+    image_id: ami-9883c6f2
+    tags:
+      Name: et_fog-default-ubuntu-1404
+- name: centos-7
+  driver:
+    image_id: ami-61bbf104
+    tags:
+      Name: et_fog-default-centos-7
+  transport:
+    username: centos
 
 suites:
   - name: default

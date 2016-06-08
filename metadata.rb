@@ -11,5 +11,6 @@ issues_url 'https://github.com/evertrue/et_fog-cookbook/issues' if respond_to?(:
 
 supports 'ubuntu', '= 14.04'
 
+chef_version '~> 12.10'
+
 depends 'build-essential', '>= 4.0'
-depends 'apt',             '>= 3.0'

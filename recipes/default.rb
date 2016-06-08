@@ -17,7 +17,14 @@
 # limitations under the License.
 #
 
-include_recipe 'apt' if platform_family?('debian')
+if Chef::VersionConstraint.new('< 12.10.0').include? Chef::VERSION
+  raise 'This recipe requires Chef version 12.10 or greater'
+end
+
+apt_update 'et_fog' do
+  action :nothing
+end.run_action(:periodic)
+
 include_recipe 'build-essential'
 
 # Dependencies required by nokogiri (for fog)
