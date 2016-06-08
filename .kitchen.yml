@@ -13,6 +13,7 @@ driver:
     Type: test
 
 transport:
+  name: sftp
   ssh_key: <%= ENV['EC2_SSH_KEY_PATH'] %>
 
 provisioner:
@@ -21,14 +22,12 @@ provisioner:
 platforms:
 - name: ubuntu-14.04
   driver:
-    image_id: ami-9883c6f2
     tags:
-      Name: et_fog-default-ubuntu-1404
-- name: centos-7
+      Name: et-fog-default-ubuntu-1404
+- name: centos-7.1
   driver:
-    image_id: ami-61bbf104
     tags:
-      Name: et_fog-default-centos-7
+      Name: et-fog-default-centos-7
   transport:
     username: centos
 
