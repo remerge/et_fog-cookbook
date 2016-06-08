@@ -30,6 +30,6 @@ notifications:
     secure: NOfZLlBbYzXoGw6d4GIMdn/rkBfaVZo+gTNDmRTNLvysjEJrO0q9E95VFZnruM5S8bhacCfmKjy1zuraePqrrOg6qhBN22MzkIxk3yZx6SXIyQ/y0vJuqlFt8JF8Yd7xS8SZIsGuGJot4BCykZXbMfXDTb6g4DkOkWOWIsV0B0c=
 env:
   global:
-  - KITCHEN_YAML=.kitchen.cloud.yml
+  - KITCHEN_YAML=.kitchen.yml
   - secure: HhZ3eMn99WTECKZC+PnX2KMoYkeNfnOmrwcJArm/xe/c9Hh2rLJugLkvcBqdzhDj26zvm5a1CqvnvKgMEyGYGBc94iQS8PG7elHptV/f/u7wViyKkINZycG0HII1MDf0lNXMfDQ7u3NfkZrOCEZY056XyUBBQI6iM98d65KMDxQ=
   - secure: jqAad1Yj0qMCmf4H4k3J1Itk9Lk53Hen6ipWSEnWoP3TiQkKuqaTVjoIsdDxEV+qTUNZjsqIrWbN9ewBcgR2vEnF3JngPiMpTk+G5B2cYcNaEm4YHpNXOXDg3yBCngPFPtCAC9sIhjL5DOxvtIK14mFecyW32C2twcsLOBCG8eU=
