@@ -1,3 +1,10 @@
+# CHANGELOG for et_fog
+
+## 4.0.0 (2016-06-08)
+
+* Use Chef's built-in apt resource
+* Do all testing on EC2
+
 ## 3.0.1
 
 * Relax version constraints for `apt` and `build-essential`
