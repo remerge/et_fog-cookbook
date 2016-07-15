@@ -13,4 +13,4 @@ supports 'ubuntu', '= 14.04'
 
 chef_version '~> 12.10'
 
-depends 'build-essential', '>= 4.0'
+depends 'build-essential', '>= 2.0'
