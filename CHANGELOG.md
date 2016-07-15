@@ -1,5 +1,9 @@
 # CHANGELOG for et_fog
 
+## 4.0.1 (2016-07-15)
+
+* Relax build-essential version constraint to 2.0
+
 ## 4.0.0 (2016-06-08)
 
 * Use Chef's built-in apt resource
